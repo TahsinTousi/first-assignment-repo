@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+/* Cover Section */
+.cover {
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+    padding-top: 200px;
+
+}
+
+
+.cover-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    direction: rtl;
+    margin-right: 230px;
+    margin-bottom: 24px;
+
+
+}
+
+.cover-description {
+    font-weight: 400;
+    font-size: 16px;
+    direction: rtl;
+    margin-bottom: 34px;
+    margin-right: 230px;
+
+
+}
+
+.btn-primary {
+    height: 64px;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background: rgba(232, 19, 0, 0.753);
+    padding: 18px 35px;
+    margin-right: 230px;
+    float: right;
+
+}
+
+/* My failures of previous year */
+
+.failures-year {
+    display: flex;
+
+}
+
+.person-pic {
+    margin: 130px 100px;
+
+}
+
+.fa-solid {
+    color: green;
+}
+
+.failures-title {
+    margin-top: 360px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failures-des {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+/* my Plans Part: */
+
+.my-title {
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+
+}
+
+.my-plan {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.plan-container {
+    display: flex;
+    gap: 26px;
+
+}
+
+.plan {
+
+    border-radius: 5px;
+    padding: 30px;
+    color: #151414;
+
+}
+
+.skill-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.skill-des {
+    color: #737272;
+}
+
+/* Hand Picture With Watch Part */
+.image {
+    background: linear-gradient(90deg, #228df1 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    border-radius: 8px;
+
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-bottom: 130px;
+}
+
+.image-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 60px;
+    margin-left: 65px;
+    text-shadow: hwb(193 62% 22% / 0.842);
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-bottom: 24px;
+
+}
+
+.btn-second {
+    height: 64px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background: rgba(238, 251, 251, 0.753);
+    color: rgb(0, 87, 141);
+    padding: 18px 35px;
+    margin-left: 65px;
+}
+
+/* Footer Part */
+.last-part {
+    display: flex;
+    gap: 150px;
+    width: 1600px;
+    height: 577px;
+    background: rgb(3, 3, 3);
+    color: whitesmoke;
+}
+
+.last-heading {
+    font-weight: 700;
+    font-size: 45px;
+    margin-left: 230px;
+    padding-top: 130px;
+    margin-bottom: 16px;
+}
+
+.last-des {
+    margin-left: 230px;
+    margin-bottom: 24px;
+}
+
+.info {
+
+    margin-left: 230px;
+    margin-bottom: 30px;
+
+}
+
+.icon-part {
+    margin-left: 230px;
+
+}
+
+.sub-heading {
+    padding-top: 130px;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.btn-third {
+    height: 64px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background: rgba(238, 251, 251, 0.753);
+    color: rgb(0, 87, 141);
+    padding: 18px 35px;
+
+}
+
+.last-part a {
+    text-decoration: none;
+}
+
+.foot-des input {
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 250px;
+    padding: 20px;
+    background: #151414;
+    color: white;
+
+}
