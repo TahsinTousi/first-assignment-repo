@@ -21,6 +21,7 @@
     direction: rtl;
     margin-right: 230px;
     margin-bottom: 24px;
+    padding-top: 230px;
 
 
 }
@@ -41,11 +42,16 @@
     font-weight: 700;
     border-radius: 5px;
     border: none;
-    background: rgba(232, 19, 0, 0.753);
+    background: rgba(217, 0, 232, 0.753);
     padding: 18px 35px;
     margin-right: 230px;
     float: right;
-
+    
+}
+.btn-primary:hover {
+    background-color: #db1717;
+    border: none;
+    text-decoration: none;
 }
 
 /* My failures of previous year */
@@ -155,6 +161,56 @@
     padding: 18px 35px;
     margin-left: 65px;
 }
+.btn-second:hover {
+    background-color: #17dbd5;
+    border: none;
+    text-decoration: none;
+}
+
+/* Extra Part: */
+.my-try{
+    background-image: url('../images/galaxy.jpg');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 577px;
+    /* margin-left: 50px; */
+    /* padding-left: 10px; */
+    margin-bottom: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+    color: white;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+nav li {
+    list-style: none;
+    margin: 30px;
+    color: white;
+
+}
+
+.extra-des{
+    color: #9b44a9;
+    font-size: 80px;
+    text-align: center;
+}
+.text{
+    border-radius: 5px;
+    
+    color: purple;
+    margin-left: 80px;
+    padding-top: 20px;
+    padding-left: 20px;
+   
+
+}
 
 /* Footer Part */
 .last-part {
@@ -208,6 +264,12 @@
     padding: 18px 35px;
 
 }
+.btn-third:hover {
+    background-color: #19d1cb;
+    border: none;
+    text-decoration: none;
+}
+
 
 .last-part a {
     text-decoration: none;
